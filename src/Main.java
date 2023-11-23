@@ -2,9 +2,14 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.println("Hello and welcome!");
+
+
+
+        Complex complex1 = new Complex(1, 1);
+        Complex complex2 = new Complex(2, 2);
+        System.out.println(Complex.sum(complex1, complex2));
+        System.out.println(Complex.mult(complex1, complex2));
+        System.out.println(Complex.equals(complex1, complex2));
 
 
 
